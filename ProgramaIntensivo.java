@@ -1,4 +1,4 @@
-package com.company.Aula23;
+package com.company.Aula23.POO;
 
 import java.util.ArrayList;
 
@@ -20,7 +20,7 @@ public class ProgramaIntensivo implements OfertasAcademicas{
     public String toString() {
         return  "nome do programa = " + nome + "\n" +
                 "Descrição do programa = " + descricao + "\n" +
-                "Lista de Cursos = " + listaCursos;
+                "Lista de Cursos = " + listaCursos.toString();
     }
 
     @Override

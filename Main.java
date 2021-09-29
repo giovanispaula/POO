@@ -1,4 +1,4 @@
-package com.company.Aula23;
+package com.company.Aula23.POO;
 
 public class Main {
     public static void main(String[] args) {

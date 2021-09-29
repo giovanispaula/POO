@@ -1,4 +1,4 @@
-package com.company.Aula23;
+package com.company.Aula23.POO;
 
 public class Cursos implements OfertasAcademicas{
     public String nome;
@@ -11,6 +11,11 @@ public class Cursos implements OfertasAcademicas{
         this.descricao = descricao;
         this.horas = horas;
         this.valorHora = valorHora;
+    }
+
+    @Override
+    public String toString() {
+        return nome;
     }
 
     @Override
